@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning English words!!</title>
+    <link rel="stylesheet" href="quizEnglish.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+
+</head>
+
+<body>
+    <div class="quizDisplay">
+        <!-- 第一画面のテキスト -->
+        <div class="button-background is-active">
+            <a class="startButton" id="startButton-js">開始</a>
+        </div>
+        <!-- 第二画面のテキスト -->
+        <div class="questionContent" id="questionContent-js">
+            <div class="EnglishWord" id="questionWord-js">sample</div>
+            <div class="insert"><input type="text" value="" id="insert-js"></div>
+        </div>
+
+        <!-- 第三画面のテキスト -->
+        <div id="result-js">
+            <div class="judge" data-judge="true">正解！</div>
+            <div class="judge" data-judge="false">残念、不正解！</div>
+            <div class="answer" data-judge="false">答え</div>
+
+        </div>
+
+    </div>
+    <script src="quizEnglish.js"></script>
+</body>
+
+</html>

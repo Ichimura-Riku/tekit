@@ -1,0 +1,70 @@
+.quizDisplay{
+    height: 100px;
+    width: 500px;
+    border: 3px solid rgb(50, 231, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.startButton{
+    display: block; /* 要素をボックス化 */
+
+    /* ボタンのサイズを調整（paddingでボタンサイズを調節、widthを入れることでボタンを中央にセッティング可能） */
+    padding:10px 0;
+    width: 60px;
+
+    /* ボタンとテキストを中央にセット */
+    margin: 0 auto;
+    text-align:center;
+
+    /* 諸々の設定 */
+    color: #000;
+    text-decoration: none;
+    background: #ccc;
+    border-radius: 5px ;
+
+    /* display: none; */
+    cursor: default; /* マウスホバー時、通常時の矢印(➚)の形にする */
+}
+.EnglishWord{
+    /* ボタンのサイズを調整（paddingでボタンサイズを調節、widthを入れることでボタンを中央にセッティング可能） */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    /* ボタンとテキストを中央にセット */
+    margin: 0 auto;
+    text-align:center;
+
+
+    /* display: none; */
+}
+.insert{
+    padding: 10px 120px;
+    width: 160px;
+    margin: 0 auto;
+    /* display: none; */
+}
+.judge{
+    /* ボタンのサイズを調整（paddingでボタンサイズを調節、widthを入れることでボタンを中央にセッティング可能） */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    /* ボタンとテキストを中央にセット */
+    margin: 0 auto;
+    text-align:center;
+    /* display: none; */
+}
+.answer{
+    /* ボタンのサイズを調整（paddingでボタンサイズを調節、widthを入れることでボタンを中央にセッティング可能） */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 120px;
+    /* ボタンとテキストを中央にセット */
+    margin: 0 auto;
+    text-align:center;
+    display:none;
+}
+.is-active{
+    display:block;
+
+}
