@@ -69,7 +69,7 @@
     };
 
     beginFunc = (e, index) => {
-        console.log('確認');
+        console.log('2');
         EnterClick3(e, index);
     };
 
@@ -116,3 +116,4 @@
 // 乱数が再構築されない
 // ループが出来てない
 // カーソルがフォーカスされてない
+//]
